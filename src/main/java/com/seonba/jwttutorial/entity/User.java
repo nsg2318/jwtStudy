@@ -7,9 +7,8 @@ import lombok.*;
 import javax.persistence.*;
 import java.util.Set;
 
-//데이터 베이스 테이블하고 1:1로 매핑되는 객체
+
 @Entity
-//테이블 명 주기 위해
 @Table(name = "user")
 @Getter
 @Setter
